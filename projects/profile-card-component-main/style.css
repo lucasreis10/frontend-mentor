@@ -1,0 +1,95 @@
+/* ## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%) */
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-image: url('images/bg-pattern-bottom.svg');
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+span {
+    font-weight: 400;
+}
+
+.age {
+    font-weight: 400;
+}
+
+.image-avatar {
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -20%;
+}
+
+
+.container-images {
+    text-align: center;
+}
+
+.city {
+    text-align: center;
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.account-info {
+    border-top: solid 1px hsl(0, 0%, 59%);
+    display: flex;
+    justify-content: space-around;
+    margin: 10% auto 2%;
+    padding-top: 5%;
+}
+
+.account-info > div {
+    text-align: center;
+}
+
+.info-number {
+    margin: 5% auto 1%;
+}
+
+.info-label {
+    font-size: small;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 375px) {
+   .card-profile {
+    border-radius: 10px;
+    width: 90vw;
+    height: 48vh;
+    margin: 30% auto;
+    
+    background-color: white;
+   } 
+
+   .image-top {
+       display: inline-block;
+       width: 100%;
+       border-top-left-radius: 10px;
+       border-top-right-radius: 10px;
+   }
+}
+
+@media screen and (min-width: 1440px) {
+  
+}
