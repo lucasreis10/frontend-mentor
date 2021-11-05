@@ -1,0 +1,56 @@
+
+body {
+    background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+.title {
+    text-align: center;
+}
+
+@media screen and (min-width: 375px) and (max-width: 750px) {
+    .title {
+        padding-top: 35%;
+    }
+
+    .card-faq {
+        width: 90%;
+        height: 60vh;
+        margin: 45% auto;
+
+        display: flex;
+        flex-direction: column;
+
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .card-faq > div {
+        border-bottom: 1px solid hsl(240, 5%, 91%);
+        margin: 0% 4% 5%;
+        padding-bottom: 2%;
+        
+    }
+
+    .woman-mobile {
+        position: absolute;
+        top: 5%;
+        left: 15%;
+        width: 70%;
+    }
+
+    .shadow-woman-mobile {
+        position: absolute;
+        width: 70%;
+        left: 14%;
+        top: 20%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+}
